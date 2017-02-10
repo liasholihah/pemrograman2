@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+Author credit to : 3216603 / Siti Sholihah
+Tugas Pemrograman 2 : Membuat Tabel HTML
+Reference : tutorialspoint, bootsnip, w3school, stackocerflow
+-->
+<head>
+<!-- Kontroling view dari gadget/perangkat user dalam mengakses tampilan responsif yg disimpan di meta data-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Keterangan-->
+  <meta name="description" content="Dibuat untuk memenuhi Tugas ke-1 Pemrograman 2">
+  <meta name="author" content="3216603 - Siti Sholihah">
+
+  <title>Tabel HTML : Daftar KRS & Jadwal Perkuliahan</title>
+  <!-- STYLE CSS dengan Bootsrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- SCRIPT JS dengan Bootsrap, jQuery 3.3.1 -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<!--Judul Tabel-->
+  <h2>Tabel HTML : Daftar KRS & Jadwal Perkuliahan</h2>
+  <p>Dibuat untuk memenuhi Tugas ke-1 Pemrograman 2</p>                                                                                      
+  <div class="table-responsive">          
+  <table class="table table-light table-hover">
+  <!--Kepala Tabel-->
+    <thead>
+      <tr>
+        <th>Kode MK</th>
+        <th>Mata Kuliah</th>
+        <th>SKS</th>
+        <th>Dosen</th>
+        <th>Kelas</th>
+        <th colspan="2" style="text-align:center;">Jadwal</th>
+        <th>Status Tugas</th>
+      </tr>
+	   <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th style="text-align:center;">Sesi</th>
+        <th style="text-align:center;">Waktu</th>
+		 <th></th>
+      </tr>
+    </thead>
+	<!--Isi/Row Tabel-->
+    <tbody>	
+		<tr>
+												
+			<td class=" ">KD1205</td>
+			<td>Struktur Data </td>
+			<td>4</td>
+			<td>Uro Abdulrohim,S.Kom.,M.T</td>
+			<td align="center">1A</td>
+			<td align="center">Sesi 1</td>
+			<td align="center">15.30-17.00 / 21</td>
+			<td align="center"><span class="label label-sm label-success"> Tidak ada tugas </span></td>
+		</tr>
+		<tr>										
+			<td>KD1206</td>
+			<td>Pemrograman 2 ( Web Design)</td>
+			<td>3</td><td class=" ">Mina Ismu Rahayu M.T</td>
+			<td align="center">1A</td>
+			<td align="center">Sesi 1</td>
+			<td align="center">
+			 12.30-14.00 / 11
+			</td>
+			<td align="center"><span class="label label-sm label-warning"> Ada tugas </span></td>
+		</tr>
+		<tr>
+			
+			<td>KU1204</td>
+			<td>Aljabar Linier</td>
+			<td>3</td><td>Siti Yulianty</td>
+			<td align="center">1A</td>
+			<td align="center">Sesi 1</td>
+			<td align="center">14.00-15.30 / 25</td>
+			<td align="center"><span class="label label-sm label-info"> Tugas selesai </span></td>
+		</tr>
+		<tr>
+			
+			<td>KU1205</td>
+			<td class=" ">Pancasila</td>
+			<td>2</td><td>Kol. Sugiyanto Hadinoto</td>
+			<td align="center">1A</td>
+			<td align="center">Sesi 2</td>
+			<td align="center">14.00-15.30 / 21</td>
+			<td align="center"><span class="label label-sm label-danger"> Telat mengumpulkan </span></td>
+		</tr>
+		<tr>
+			
+			<td>SI1202</td>
+			<td>Proses Bisnis</td>
+			<td>3</td><td>Herna Gunawan, S.T, M.M</td>
+			<td align="center" class=" ">1A</td>
+			<td align="center">Sesi 2</td>
+			<td align="center">15.30-17.00 / 11</td>
+			<td align="center"><span class="label label-sm label-success"> Tidak ada tugas </span></td>
+		</tr>
+		<tr>
+			
+			<td>KD1411</td>
+			<td>Perancangan Basis Data</td>
+			<td>3</td><td>Rini Nuraini Sukmana,M.T</td>
+			<td align="center">1A</td>
+			<td align="center">Sesi 2</td>
+			<td align="center">12.30-14.00 / 25</td>
+			<td align="center"><span class="label label-sm label-success"> Tidak ada tugas </span></td>
+		</tr>									
+									
+	</tbody>
+  </table>
+  </div>
+  <!-- footer dalam divider-->
+  <div class="page-footer">
+            <div class="page-footer-inner"> 3216603 - Siti Sholihah. Tutorial dari 
+                <a href="https://www.tutorialspoint.com/html/" title="Tutorials Point" target="_blank">Tutorials Point</a>
+            </div>
+        </div>
+</div>
+
+</body>
+
+</html>
